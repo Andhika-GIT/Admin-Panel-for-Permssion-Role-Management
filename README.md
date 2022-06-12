@@ -8,9 +8,9 @@ Admin panel built with Laravel 8, Jetstream, Inertia, AdminLTE, Spatie's Laravel
 -   open the terminal, go to the root project, type php artisan storage:link in the console
 -   create the database, go to .ENV and configure the database connection
 -   type php artisan migrate:fresh in console to migrate the database
--   Run npm install
--   run php artisan serve
--   run npm run watch
+-   type npm install in console terminal
+-   type php artisan serve in console terminal
+-   type npm run watch in console terminal
 
 ## License
 
