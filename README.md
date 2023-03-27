@@ -5,7 +5,8 @@ Admin panel built with Laravel 8, Jetstream, Inertia, AdminLTE, Spatie's Laravel
 ## How To Use
 
 -   Clone/ Download the source code
--   open the terminal, go to the root project, type php artisan storage:link in the console
+-   go to public folder and inside that folder, run rm storage in terminal, to delete storage folder
+-   go back to the root project, then run php artisan storage:link in terminal, to create new storage folder
 -   go to storage/app/public, create new folder, name it "images"
 -   download all images from https://www.dropbox.com/sh/mve2m5s0zdbmodl/AACCpwAdZeniPxa9KNQn33Qza?dl=0, put them inside the "images" folder that you've just created
 -   go to .ENV file to setup database
