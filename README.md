@@ -6,7 +6,11 @@ Admin panel built with Laravel 8, Jetstream, Inertia, AdminLTE, Spatie's Laravel
 
 -   Clone/ Download the source code
 -   open the terminal, go to the root project, type php artisan storage:link in the console
--   create the database, go to .ENV and configure the database connection
+-   go to storage/app/public, create new folder, name it "images"
+-   download all images from https://www.dropbox.com/sh/mve2m5s0zdbmodl/AACCpwAdZeniPxa9KNQn33Qza?dl=0, put them inside the "images" folder that you've just created
+-   go to .ENV file to setup database
+-   start your server ( XAMPP or other services ) then create new database with the exact name as DB_DATABASE in .ENV
+-   make sure that the port and the host is the same as DB_HOST and DB_PORT
 -   type php artisan migrate:fresh in console to migrate the database
 -   type npm install in console terminal
 -   type php artisan serve in console terminal
